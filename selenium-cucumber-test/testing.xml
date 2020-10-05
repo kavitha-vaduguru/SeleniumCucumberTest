@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite" thread-count="2" parallel="tests" >
+
+<test name="ChromeTest">
+
+<parameter name="browserName" value="chrome" />
+
+<classes>
+
+<class name="helper.TestBase">
+
+</class>
+
+</classes>
+
+</test>
+
+<test name="FirefoxTest">
+
+<parameter name="browserName" value="firefox" />
+
+<classes>
+
+<class name="helper.TestBase">
+
+</class>
+
+</classes>
+
+</test>
+
+<test name="EdgeTest">
+
+<parameter name="browserName" value="Edge" />
+
+<classes>
+
+<class name="helper.TestBase">
+
+</class>
+
+</classes>
+
+</test>
+
+</suite>
